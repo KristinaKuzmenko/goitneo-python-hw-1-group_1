@@ -8,7 +8,7 @@ def add_contact(args, contacts):
     try:
         name, phone = args
         if name in contacts:
-            return "Contact is already exists"
+            return "Contact already exists"
         else:
             contacts[name] = phone
             return "Contact added."
